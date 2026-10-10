@@ -87,4 +87,4 @@ python benchmark.py --summarize --output-dir results/2026-10-10
 
 只保留复现需要的测量字段；不包含本地绝对路径、系统用户名、机器名、IP、访问令牌或私人文本。模型返回的模型名、token 计数和测量时间保留，用于解释部署行为。生成新的请求不会保证得到逐字相同的译文或时延。
 
-上游项目：[bilibili/Index-Translate](https://github.com/bilibili/Index-Translate)。本仓库是独立反馈材料。
+上游项目：[bilibili/Index-Translate](https://github.com/bilibili/Index-Translate)。反馈已发布为 [Issue #18](https://github.com/bilibili/Index-Translate/issues/18)。本仓库是独立反馈材料。
