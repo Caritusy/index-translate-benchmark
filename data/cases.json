@@ -1,0 +1,149 @@
+[
+  {
+    "id": "everyday_en_zh",
+    "category": "日常",
+    "source": "en",
+    "target": "zh",
+    "text": "The train leaves at 6:45 tomorrow morning. Please arrive at least fifteen minutes early and bring the ticket on your phone.",
+    "rubric": "保留次日早上6:45、至少提前15分钟、手机中的车票。",
+    "prompt": "请将以下英语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nThe train leaves at 6:45 tomorrow morning. Please arrive at least fifteen minutes early and bring the ticket on your phone."
+  },
+  {
+    "id": "everyday_zh_en",
+    "category": "日常",
+    "source": "zh",
+    "target": "en",
+    "text": "麻烦帮我把窗户关一下，外面有点冷。你如果还没吃饭，冰箱里有昨天做的汤，热一下就能喝。",
+    "rubric": "礼貌语气；如果尚未吃饭；冰箱里的昨天做的汤，需加热。",
+    "prompt": "请将以下中文文本翻译为英语，直接输出翻译结果，不要进行任何解释。\n\n麻烦帮我把窗户关一下，外面有点冷。你如果还没吃饭，冰箱里有昨天做的汤，热一下就能喝。"
+  },
+  {
+    "id": "negation",
+    "category": "数量与否定",
+    "source": "en",
+    "target": "zh",
+    "text": "Of the 120 applications, all but 17 were approved. No applicant under 18 was accepted, even if they had parental consent.",
+    "rubric": "120份中除17份外都获批，即103获批；未满18岁无人获批，家长同意也不例外。",
+    "prompt": "请将以下英语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nOf the 120 applications, all but 17 were approved. No applicant under 18 was accepted, even if they had parental consent."
+  },
+  {
+    "id": "budget",
+    "category": "倍数与条件",
+    "source": "zh",
+    "target": "en",
+    "text": "预算最多增加到原来的1.2倍，而不是增加1.2倍。除非供应商在周五之前确认交期，否则我们不会付款。",
+    "rubric": "增加到原来的1.2倍，不能误作增加120%；周五之前确认交期是付款必要条件。",
+    "prompt": "请将以下中文文本翻译为英语，直接输出翻译结果，不要进行任何解释。\n\n预算最多增加到原来的1.2倍，而不是增加1.2倍。除非供应商在周五之前确认交期，否则我们不会付款。"
+  },
+  {
+    "id": "idiom_en_zh",
+    "category": "习语",
+    "source": "en",
+    "target": "zh",
+    "text": "I see where you're coming from, but let's not throw the baby out with the bathwater. Could we sleep on it and touch base tomorrow?",
+    "rubric": "理解对方观点；不因局部问题全盘抛弃；考虑一晚明天再沟通；保持商量语气。",
+    "prompt": "请将以下英语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nI see where you're coming from, but let's not throw the baby out with the bathwater. Could we sleep on it and touch base tomorrow?"
+  },
+  {
+    "id": "idiom_zh_en",
+    "category": "口语",
+    "source": "zh",
+    "target": "en",
+    "text": "他嘴上说这事十拿九稳，真到关键时刻却掉链子。你可别把他那句“我尽量”当成承诺。",
+    "rubric": "声称有把握、关键时刻失误；我尽量不是承诺；避免机械直译。",
+    "prompt": "请将以下中文文本翻译为英语，直接输出翻译结果，不要进行任何解释。\n\n他嘴上说这事十拿九稳，真到关键时刻却掉链子。你可别把他那句“我尽量”当成承诺。"
+  },
+  {
+    "id": "technical",
+    "category": "技术语义",
+    "source": "en",
+    "target": "zh",
+    "text": "The client application keeps timing out, even though the server is up. Please close the current session without terminating the process, then open a new session.",
+    "rubric": "客户端不断超时而服务器在运行；结束会话但不终止进程；新建会话。",
+    "prompt": "请将以下英语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nThe client application keeps timing out, even though the server is up. Please close the current session without terminating the process, then open a new session."
+  },
+  {
+    "id": "deployment",
+    "category": "术语与顺序",
+    "source": "zh",
+    "target": "en",
+    "text": "预发布环境已通过回归测试，但生产环境仍未部署新版本。请先备份生产数据库，再执行迁移；如果迁移失败，只回滚这次事务，不要撤销整个部署。",
+    "rubric": "staging/regression/production/migration/transaction/deployment术语准确；先备份再迁移；仅回滚本次事务。",
+    "prompt": "请将以下中文文本翻译为英语，直接输出翻译结果，不要进行任何解释。\n\n预发布环境已通过回归测试，但生产环境仍未部署新版本。请先备份生产数据库，再执行迁移；如果迁移失败，只回滚这次事务，不要撤销整个部署。"
+  },
+  {
+    "id": "ja_zh",
+    "category": "日译中",
+    "source": "ja",
+    "target": "zh",
+    "text": "検討した結果、今回は採用を見送ることにしました。ご期待に添えず申し訳ありませんが、条件が変わりましたら、改めてご相談させてください。",
+    "rubric": "考虑后本次不采用/暂缓采用；礼貌拒绝；条件变化后重新商谈。上下文没指明员工，不应武断增添招聘事实。",
+    "prompt": "请将以下日语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\n検討した結果、今回は採用を見送ることにしました。ご期待に添えず申し訳ありませんが、条件が変わりましたら、改めてご相談させてください。"
+  },
+  {
+    "id": "zh_ja",
+    "category": "中译日",
+    "source": "zh",
+    "target": "ja",
+    "text": "这次会议改到下周三下午三点，地点不变。如果你来不了，请提前一天告诉我，不用专门请假。",
+    "rubric": "改为下周三下午3点；地点不变；不能来提前一天告知；无需专门请假。",
+    "prompt": "请将以下中文文本翻译为日语，直接输出翻译结果，不要进行任何解释。\n\n这次会议改到下周三下午三点，地点不变。如果你来不了，请提前一天告诉我，不用专门请假。"
+  },
+  {
+    "id": "de_zh",
+    "category": "德译中",
+    "source": "de",
+    "target": "zh",
+    "text": "Das Update wird standardmäßig aktiviert, lässt sich aber in den Einstellungen deaktivieren. Bereits gespeicherte Daten werden dabei nicht gelöscht. Die Änderung gilt erst ab dem nächsten Neustart.",
+    "rubric": "默认启用而可在设置禁用；已存数据不删除；下次重启才生效。",
+    "prompt": "请将以下德语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nDas Update wird standardmäßig aktiviert, lässt sich aber in den Einstellungen deaktivieren. Bereits gespeicherte Daten werden dabei nicht gelöscht. Die Änderung gilt erst ab dem nächsten Neustart."
+  },
+  {
+    "id": "glossary",
+    "category": "术语约束",
+    "source": "zh",
+    "target": "en",
+    "text": "星桥的灰度发布采用熔断器保护上游服务。若灰度发布失败，星桥会触发熔断器并回滚。",
+    "glossary": "{\"星桥\":\"StarBridge\",\"灰度发布\":\"canary release\",\"熔断器\":\"circuit breaker\",\"上游服务\":\"upstream services\"}",
+    "rubric": "指定术语精确保留，重复使用需一致；失败则触发熔断器和回滚。",
+    "prompt": "请将以下中文文本翻译成英语，并且严格遵循所有约束要求。\n\n【源文】\n星桥的灰度发布采用熔断器保护上游服务。若灰度发布失败，星桥会触发熔断器并回滚。\n\n【约束要求】\n1. 【硬性要求】专名/术语对照: 星桥→StarBridge、灰度发布→canary release、熔断器→circuit breaker、上游服务→upstream services\n\n只输出译文，不要有任何额外说明。"
+  },
+  {
+    "id": "json",
+    "category": "JSON约束",
+    "source": "zh",
+    "target": "en",
+    "text": "{\"title\":\"连接失败\",\"message\":\"无法连接到服务器，请稍后重试。\",\"button\":\"重新连接\",\"version\":\"1.2.0\",\"retry_count\":3,\"url\":\"https://example.com/help\"}",
+    "instruction": "严格保留合法 JSON 格式，仅翻译中文字符串值。所有 key、数字、版本号和 URL 保持不变。",
+    "rubric": "只输出合法JSON；key不变；retry_count数字3；version及url不变；译值语义正确。",
+    "prompt": "请将以下中文文本翻译成英语，并且严格遵循所有约束要求。\n\n【源文】\n{\"title\":\"连接失败\",\"message\":\"无法连接到服务器，请稍后重试。\",\"button\":\"重新连接\",\"version\":\"1.2.0\",\"retry_count\":3,\"url\":\"https://example.com/help\"}\n\n【约束要求】\n1. 【注意】严格保留合法 JSON 格式，仅翻译中文字符串值。所有 key、数字、版本号和 URL 保持不变。\n\n请以相同的 JSON 格式输出翻译结果，key 保持不变，value 为对应译文。只输出 JSON，不要有任何额外说明。"
+  },
+  {
+    "id": "markdown",
+    "category": "格式与占位符",
+    "source": "zh",
+    "target": "en",
+    "text": "## 同步状态\n- 用户 **{username}**：已同步 {count} 个文件。\n- 如需帮助，请访问 [帮助中心](https://example.com/help)。\n\n`sync --dry-run` 仅预览操作，不会修改文件。",
+    "instruction": "保持 Markdown 结构、占位符 {username} 和 {count}、URL 和反引号内代码完全不变，只翻译中文文本。",
+    "rubric": "Markdown结构及占位符、URL、代码不变；dry-run仅预览不修改文件。",
+    "prompt": "请将以下中文文本翻译成英语，并且严格遵循所有约束要求。\n\n【源文】\n## 同步状态\n- 用户 **{username}**：已同步 {count} 个文件。\n- 如需帮助，请访问 [帮助中心](https://example.com/help)。\n\n`sync --dry-run` 仅预览操作，不会修改文件。\n\n【约束要求】\n1. 【注意】保持 Markdown 结构、占位符 {username} 和 {count}、URL 和反引号内代码完全不变，只翻译中文文本。\n\n只输出译文，不要有任何额外说明。"
+  },
+  {
+    "id": "long_en_zh",
+    "category": "长段英译中",
+    "source": "en",
+    "target": "zh",
+    "text": "We are writing to clarify the service interruption that occurred on Tuesday. Between 09:10 and 09:47, some users could sign in but could not upload new files. Existing files remained available, and we found no evidence that customer data had been lost or accessed without authorization. The incident affected approximately 8% of upload requests in the Asia-Pacific region; it did not affect every customer in that region.\n\nThe immediate cause was a configuration change that reduced the number of available database connections. Automatic retries increased the load instead of relieving it. We restored the previous configuration at 09:32, but the backlog took another fifteen minutes to clear. The new release has been paused, not permanently cancelled. Before trying again, we will test the retry policy under load and add an alert for connection exhaustion.\n\nCustomers do not need to reset their passwords or re-upload files that already appear in their accounts. If an upload is still marked as pending, please check whether it completed before starting it again; otherwise, you may create a duplicate. We will issue a service credit only to eligible accounts, in accordance with their contracts. This notice is an explanation of what happened and should not be read as a promise that similar incidents can never occur.",
+    "rubric": "完整三段；8%是上传请求非所有客户；09:32恢复配置，15分钟清队列；暂停非永久取消；无需重置密码；仅合资格账户补偿；保留限定语与否定。",
+    "prompt": "请将以下英语文本翻译为中文，直接输出翻译结果，不要进行任何解释。\n\nWe are writing to clarify the service interruption that occurred on Tuesday. Between 09:10 and 09:47, some users could sign in but could not upload new files. Existing files remained available, and we found no evidence that customer data had been lost or accessed without authorization. The incident affected approximately 8% of upload requests in the Asia-Pacific region; it did not affect every customer in that region.\n\nThe immediate cause was a configuration change that reduced the number of available database connections. Automatic retries increased the load instead of relieving it. We restored the previous configuration at 09:32, but the backlog took another fifteen minutes to clear. The new release has been paused, not permanently cancelled. Before trying again, we will test the retry policy under load and add an alert for connection exhaustion.\n\nCustomers do not need to reset their passwords or re-upload files that already appear in their accounts. If an upload is still marked as pending, please check whether it completed before starting it again; otherwise, you may create a duplicate. We will issue a service credit only to eligible accounts, in accordance with their contracts. This notice is an explanation of what happened and should not be read as a promise that similar incidents can never occur."
+  },
+  {
+    "id": "long_zh_en",
+    "category": "长段中译英",
+    "source": "zh",
+    "target": "en",
+    "text": "本次评审的重点不是把所有服务一次性迁移到新平台，而是确认最小范围的试点能否稳定运行。试点仅覆盖两个内部团队，不包含外部客户。现有合同、计费方式和数据保留期限均保持不变。如果试点未达到预期，我们将暂停扩大范围，但不会立即关闭已经上线的服务。\n\n上线前，运维团队必须完成数据库备份，并验证备份确实可以恢复。测试环境通过回归测试并不意味着生产环境可以跳过检查。部署时先更新只读节点，再逐步切换写入流量；只有当错误率连续三十分钟低于百分之零点五，且延迟没有明显增加时，才能继续下一阶段。若迁移失败，只回滚本次数据库事务；若应用版本本身存在问题，则恢复上一版本并保留故障日志。\n\n我们预计新方案可以减少约百分之二十的资源消耗，但这只是基于当前工作负载的估计，并非对所有场景的保证。业务增长可能抵消这部分节省。每个团队需要指定一位负责人，在周五之前提交监控指标、回退方案和联系人信息。没有提交材料的团队暂时不能进入试点。请不要把“默认启用”理解为“强制启用”：用户仍然可以在设置中关闭该功能，关闭后也不会丢失已有数据。",
+    "rubric": "完整三段；仅两个内部团队；暂停扩展不立即关闭服务；先备份验证恢复；只读节点先行；连续30分钟错误率低于0.5%；事务/版本回退不同；预计减少20%非保证；默认非强制。",
+    "prompt": "请将以下中文文本翻译为英语，直接输出翻译结果，不要进行任何解释。\n\n本次评审的重点不是把所有服务一次性迁移到新平台，而是确认最小范围的试点能否稳定运行。试点仅覆盖两个内部团队，不包含外部客户。现有合同、计费方式和数据保留期限均保持不变。如果试点未达到预期，我们将暂停扩大范围，但不会立即关闭已经上线的服务。\n\n上线前，运维团队必须完成数据库备份，并验证备份确实可以恢复。测试环境通过回归测试并不意味着生产环境可以跳过检查。部署时先更新只读节点，再逐步切换写入流量；只有当错误率连续三十分钟低于百分之零点五，且延迟没有明显增加时，才能继续下一阶段。若迁移失败，只回滚本次数据库事务；若应用版本本身存在问题，则恢复上一版本并保留故障日志。\n\n我们预计新方案可以减少约百分之二十的资源消耗，但这只是基于当前工作负载的估计，并非对所有场景的保证。业务增长可能抵消这部分节省。每个团队需要指定一位负责人，在周五之前提交监控指标、回退方案和联系人信息。没有提交材料的团队暂时不能进入试点。请不要把“默认启用”理解为“强制启用”：用户仍然可以在设置中关闭该功能，关闭后也不会丢失已有数据。"
+  }
+]

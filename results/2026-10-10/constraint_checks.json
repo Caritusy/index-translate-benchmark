@@ -1,0 +1,71 @@
+[
+  {
+    "model": "index-mt-35b",
+    "case_id": "glossary",
+    "all_terms_present": true,
+    "repeated_terms": {
+      "StarBridge": 2,
+      "canary release": 2,
+      "circuit breaker": 2
+    }
+  },
+  {
+    "model": "index-mt-2b",
+    "case_id": "glossary",
+    "all_terms_present": true,
+    "repeated_terms": {
+      "StarBridge": 2,
+      "canary release": 2,
+      "circuit breaker": 2
+    }
+  },
+  {
+    "model": "index-mt-9b",
+    "case_id": "glossary",
+    "all_terms_present": true,
+    "repeated_terms": {
+      "StarBridge": 2,
+      "canary release": 2,
+      "circuit breaker": 2
+    }
+  },
+  {
+    "model": "index-mt-2b",
+    "case_id": "json",
+    "valid_json": true,
+    "same_keys": true,
+    "preserved_metadata": true
+  },
+  {
+    "model": "index-mt-9b",
+    "case_id": "json",
+    "valid_json": true,
+    "same_keys": true,
+    "preserved_metadata": true
+  },
+  {
+    "model": "index-mt-35b",
+    "case_id": "json",
+    "valid_json": true,
+    "same_keys": true,
+    "preserved_metadata": true
+  },
+  {
+    "model": "index-mt-9b",
+    "case_id": "markdown",
+    "preserved_literals": true,
+    "heading_and_two_items": true
+  },
+  {
+    "model": "index-mt-35b",
+    "case_id": "markdown",
+    "preserved_literals": true,
+    "heading_and_two_items": true
+  },
+  {
+    "model": "index-mt-2b",
+    "case_id": "markdown",
+    "preserved_literals": true,
+    "heading_and_two_items": true
+  }
+]
